@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Double dollarAmount = Double.parseDouble(dollarField.getText().toString());
 
-        Double euroAmount = dollarAmount * 0.90;
+        Double euroAmount = dollarAmount * 0.88;
 
         Log.i("euroAmount", euroAmount.toString());
 
