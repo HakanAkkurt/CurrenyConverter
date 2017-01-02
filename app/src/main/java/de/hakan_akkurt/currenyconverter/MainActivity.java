@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Double euroAmount = dollarAmount * 0.88;
 
-        Log.i("euroAm", euroAmount.toString());
+        Log.i("euroAmo", euroAmount.toString());
 
         Toast.makeText(getApplicationContext(),euroAmount.toString() + " €", Toast.LENGTH_LONG).show();
 
